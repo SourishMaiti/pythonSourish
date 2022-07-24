@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
 
 
 get_ipython().system('pip install opencv-python')
@@ -25,10 +21,6 @@ cap = cv2.VideoCapture(0)
 mpHands=mp.solutions.hands
 hands = mpHands.Hands()
 mpDraw=mp.solutions.drawing_utils
-
-
-# In[ ]:
-
 
 while True :
     volume.SetMasterVolumeLevel(-20.0, None)
@@ -66,25 +58,3 @@ while True :
     cv2.imshow("img",img)
     cv2.waitKey(1)
         
-        
-      
-        
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
