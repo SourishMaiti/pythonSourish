@@ -1,0 +1,20 @@
+<%- include('partials/headerProfile'); %>
+<h1><%=username%>'s posts</h1>
+
+<p></p>
+
+    <%posts.forEach(function(post){ %>
+
+    <h1><%=post.title%></h1>
+    <p>
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/community/posts/<%=post.postID%>">Read More</a>
+</p>
+    <% }) %>
+
+<div style="margin-top: 20px;">
+    <a href="/community/compose" class="btn btn-primary btn-lg active" role="button" aria-disabled="true">Create Article</a>
+</div>
+
+
+<%- include('partials/footer'); %>
