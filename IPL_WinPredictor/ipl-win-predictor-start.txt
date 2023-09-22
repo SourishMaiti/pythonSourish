@@ -1,0 +1,2 @@
+(venv) PS C:\Users\ACER\PycharmProjects\pythonProject> cd ipl-win-predictor
+(venv) PS C:\Users\ACER\PycharmProjects\pythonProject\ipl-win-predictor> streamlit run app.py

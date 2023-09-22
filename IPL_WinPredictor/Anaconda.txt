@@ -1,0 +1,13 @@
+ctrl+ c
+conda deactivate
+conda activate C:\Users\ACER\Desktop\sample_project_1\env
+jupyter notebook
+m for comment 
+y for code
+.csv comma separated value
+df data frame
+df.head() shows first 5 data from dataset
+escape b to next cell
+escape dd to delete cell
+escape m to markdown
+C:\Users\ACER\Desktop\sample_project_1
