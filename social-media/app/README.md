@@ -19,7 +19,3 @@ A completely Responsive Instagram App- Works on Android, iOS & Web!
 
 **Client**: Flutter, Provider
     
-## Feedback
-
-If you have any feedback, please reach out to me at namanrivaan@gmail.com
-
